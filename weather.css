@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
 color:#ffff ;
+font-family: 'Poppins', sans-serif;
+list-style: none;
 }
 body{
     background-color: #252323;
@@ -16,15 +18,18 @@ img{
 height: 34.411px;
 }
 /*logo + name of logo*/
+.logo li{
+    border: 1px solid red;
+}
 .logo{
+    font-size: 30px;
     display: flex;
     align-items: center;
 justify-content: space-between;
 }
 
-/* each li element */
-.navbar li{
-list-style: none;
+/* each li element  f list sghira */
+.nav li{
 border: 1px solid #ff0000 ;
 padding: 0px 11px;
 }
