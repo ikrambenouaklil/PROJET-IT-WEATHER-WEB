@@ -8,15 +8,10 @@ list-style: none;
 body{
     background-color: #252323;
 }
-img{
-    float: left;
-}
+
 /* --------------logo--------- */
 /*logo pic*/
-.logoweather{
-    width: 57.314px;
-height: 34.411px;
-}
+
 /*logo + name of logo*/
 .logo li{
     border: 1px solid red;
