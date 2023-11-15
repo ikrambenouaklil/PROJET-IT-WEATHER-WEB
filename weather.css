@@ -8,3 +8,42 @@ body{
 img{
     float: left;
 }
+/* --------------logo--------- */
+/*logo pic*/
+.logoweather{
+    width: 57.314px;
+height: 34.411px;
+}
+/*logo + name of logo*/
+.logo{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+
+/* each li element */
+.navbar li{
+list-style: none;
+border: 1px solid #ff0000 ;
+padding: 0px 11px;
+}
+/*link decoration*/
+a{
+     text-decoration: none;   
+}
+
+/* la liste sghira */
+.nav{
+    padding-left: 128px;
+    display: flex;
+    align-items: flex-start;
+justify-content: space-between;
+  
+}
+/* la liste kaml */
+.navbar{
+    gap: 128px;
+    display: flex;
+    margin: 56px 130px 0;
+    align-items: center;
+}
