@@ -39,13 +39,13 @@ a{
 
 /* la liste sghira */
 .nav{
-
     display: flex;
 }
 /* la liste kaml */
 .navbar{
-    
-    left :50%;
+    position: absolute;
+    left: 50%;
     display: flex;
     align-items: center;
+    
 }
