@@ -1,3 +1,4 @@
+/*all*/
 *{
     padding: 0px;
     margin: 0px;
@@ -5,6 +6,8 @@ color:#ffff ;
 font-family: 'Poppins', sans-serif;
 list-style: none;
 }
+
+/*body*/
 body{
     background-color: #252323;
 
@@ -26,7 +29,7 @@ justify-content: space-between;
 
 /* each li element  f list sghira */
 .nav li{
-border: 1px solid #ff0000 ;
+border: 1px solid blue ;
 padding: 0px 11px;
 }
 /*link decoration*/
@@ -38,14 +41,10 @@ a{
 .nav{
 
     display: flex;
-    align-items: flex-start;
-justify-content: space-between;
-
-  
 }
 /* la liste kaml */
 .navbar{
-    position : absolute; 
+    
     left :50%;
     display: flex;
     align-items: center;
