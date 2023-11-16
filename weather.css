@@ -61,9 +61,25 @@ top: 50px;
 
 /*search section */
 .search{
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-top: 200px;
-margin: 0 auto;
+    top: 100px;
+    
+}
+
+/* info section*/
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gold;
+    background-color: #ffff;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+
+
+
 }
