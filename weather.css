@@ -10,28 +10,32 @@ list-style: none;
 /*body*/
 body{
     background-color: #252323;
-
+   
 }
 
 /* --------------logo--------- */
 /*logo pic*/
 
 /*logo + name of logo*/
-.logo li{
-    border: 1px solid red;
+.logoweather{
+    width: 75px;
+height: 59;
+flex-shrink: 0;
 }
+
 .logo{
-    font-size: 30px;
     display: flex;
+    gap: 8px;
     align-items: center;
 justify-content: space-between;
 }
-
-/* each li element  f list sghira */
-.nav li{
-border: 1px solid blue ;
-padding: 0px 11px;
+.logoname{
+    font-size: 30px;
+    font-weight: 400;
 }
+
+
+
 /*link decoration*/
 a{
      text-decoration: none;   
@@ -40,12 +44,25 @@ a{
 /* la liste sghira */
 .nav{
     display: flex;
+    gap: 35px;
+    font-weight: 600;
+    font-size: 20px;
 }
 /* la liste kaml */
 .navbar{
-    position: absolute;
-    left: 50%;
-    display: flex;
-    align-items: center;
     
+    display: flex;
+    gap: 450px;
+    justify-content: center;
+align-items: center;
+position: relative;
+top: 50px;
+}
+
+/*search section */
+.search{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+top: 200px;
 }
