@@ -61,8 +61,23 @@ top: 50px;
 
 /*search section */
 .search{
+    align-items: center;
+    justify-content: center;
     position: relative;
-top: 200px;
+    top: 100px;
+    
+}
+
+/* info section*/
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gold;
+    background-color: #ffff;
+    top: 200px;
+    width: 150px;
+    height: 150px;
 }
 .searchtext{
   color: #252323;
