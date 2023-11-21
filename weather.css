@@ -18,19 +18,20 @@ body{
 
 /*logo + name of logo*/
 .logoweather{
-    width: 75px;
-height: 59;
+    width: 50px;
+    height: 38px;
 flex-shrink: 0;
 }
 
 .logo{
     display: flex;
     gap: 8px;
-    align-items: center;
+    align-items: stretch;
+    border: red 1px solid;
 justify-content: space-between;
 }
 .logoname{
-    font-size: 30px;
+    font-size:24px;
     font-weight: 400;
 }
 
@@ -44,9 +45,9 @@ a{
 /* la liste sghira */
 .nav{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* la liste kaml */
@@ -54,10 +55,11 @@ a{
     text-align: center;
     display: flex;
     gap: 329px;
-    justify-content: center;
+    justify-content: space-around;
+ 
 align-items: center;
 position: relative;
-top: 10px;
+top: 20px;
 }
 
 /*search section */
@@ -67,8 +69,9 @@ top: 10px;
     top: 80px;
     left: 50%;
     transform: translate(-50%,-25%);
-    width: 320px;
-     height: 50px;
+   
+     width: 513px;
+    height: 51px;
      border-radius: 40px;
      background: #D9D9D9;
 grid-template-columns: 85% 15%;
