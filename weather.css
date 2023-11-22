@@ -27,7 +27,7 @@ flex-shrink: 0;
     display: flex;
     gap: 8px;
     align-items: stretch;
-    border: red 1px solid;
+
 justify-content: space-between;
 }
 .logoname{
@@ -104,7 +104,6 @@ height: 25px;
 }
 /*---------------------info section------------------*/
 .boxinfo{
-    border: 1px solid red;
     height: 480px;
     position: relative;
     top: 60px;
