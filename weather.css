@@ -126,10 +126,12 @@ height: 25px;
     height: 80%; 
    
 }
-.temp{
+.tempi{
     display: flex;
+    gap: 18px;
     justify-content: center;
     align-items: center;
+    position:absolute; 
     top : 50%; 
     transform: translate(-50%,-50%);
     border: red solid 1px;
