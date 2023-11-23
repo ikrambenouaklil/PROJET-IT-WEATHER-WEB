@@ -109,7 +109,7 @@ height: 25px;
     top: 60px;
     display: flex;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
  left: 50%;
     transform: translate(-50%,8%);
         width: 670px;
@@ -123,12 +123,16 @@ height: 25px;
 }
 
 .info{
-    height: 80%;
-    border: 1px red solid;
-display: grid;
-grid-template-rows: auto  auto auto auto; 
+    height: 80%; 
+   
 }
-.info>p{
-    border: 1px red solid ;
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top : 50%; 
+    transform: translate(-50%,-50%);
+    border: red solid 1px;
 }
+
 
