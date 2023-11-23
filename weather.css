@@ -126,15 +126,37 @@ height: 25px;
     height: 80%; 
    
 }
+/*--------------  tempirature info ----------*/
 .tempi{
-    display: flex;
-    gap: 18px;
-    justify-content: center;
+    display: grid;
+ grid-template-areas: 
+ "logotemp temp  clouds " 
+ "desc desc desc" 
+ ;
+ grid-row-gap: 4px;
+ grid-column-gap: 20px;
+    justify-items: center;
     align-items: center;
     position:absolute; 
     top : 50%; 
     transform: translate(-50%,-50%);
-    border: red solid 1px;
+   
 }
+/*-----------------*/
+.icontemp{
+    grid-area: logotemp;
+}
+.temp{
+    grid-area: temp;
+}
+.weather-icon{
+    grid-area: clouds;
+}
+.desc{
+    grid-area: desc;
+}
+/*-----------------*/
+/*clouds logo*/
+
 
 
